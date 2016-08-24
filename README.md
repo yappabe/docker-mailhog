@@ -10,7 +10,7 @@ Add the following to your docker-compose.yml file:
 mailhog:
     image: yappabe/mailhog
     environment:
-        DNSDOCK_ALIAS: mailhog.compass-pools.docker.webfolks.be
+        DNSDOCK_ALIAS: mailhog.website.docker.webfolks.be
 ```
 Next, add this container to your php and nginx container links.
 
